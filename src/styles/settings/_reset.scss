@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f7ca11;
+  --secondary-color: #3442b5;
+  --tertiary-color: #3e3e3e;
+  --dark-black: #1b1b1b;
+  --light-gray: #9f9f9f;
+  --black: #222;
+  --gray: #3f3f40;
+  --dark-gray: #3b3b3b;
+  --light-gray: #f4f4f4;
+  --purple: #271c47;
+}
+
+body {
+  font: 400 16px $brand-font, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+input,
+button,
+a {
+  font: 400 16px $brand-font, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+li {
+  list-style: none;
+}
